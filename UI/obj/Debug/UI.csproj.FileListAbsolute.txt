@@ -64,3 +64,6 @@ D:\CSharp\ThreeLayersDemo\UI\obj\Debug\UI.exe
 D:\CSharp\ThreeLayersDemo\UI\obj\Debug\UI.pdb
 D:\CSharp\ThreeLayersDemo\UI\obj\Debug\UI.FrmCourseInfo.resources
 D:\CSharp\ThreeLayersDemo\UI\obj\Debug\UI.FrmAddOrEditCourse.resources
+D:\CSharp\ThreeLayersDemo\UI\obj\Debug\UI.FrmSCInfo.resources
+D:\CSharp\ThreeLayersDemo\UI\obj\Debug\UI.FrmAddOrEditSC.resources
+D:\CSharp\ThreeLayersDemo\UI\obj\Debug\UI.FrmStudentBySex.resources

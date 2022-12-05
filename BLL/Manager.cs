@@ -45,5 +45,22 @@ namespace BLL
             CourseDAO cDAO = new CourseDAO();
             cDAO.Delete(no);
         }
+        public void ScDelete(SC sc)
+        {
+            SCDAO scDAO = new SCDAO();
+            scDAO.Delete(sc);
+        }
+
+        public void ScInsert(SC sc)
+        {
+            SCDAO cDAO = new SCDAO();
+            cDAO.Insert(sc);
+        }
+
+        public void ScUpdate(SC sc)
+        {
+            SCDAO cDAO = new SCDAO();
+            cDAO.Update(sc);
+        }
     }
 }

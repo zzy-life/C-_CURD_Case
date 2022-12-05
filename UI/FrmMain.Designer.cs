@@ -40,7 +40,6 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(19, 19);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.DataManageToolStripMenuItem,
@@ -65,22 +64,23 @@
             // StudentInfoToolStripMenuItem
             // 
             this.StudentInfoToolStripMenuItem.Name = "StudentInfoToolStripMenuItem";
-            this.StudentInfoToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.StudentInfoToolStripMenuItem.Size = new System.Drawing.Size(243, 44);
             this.StudentInfoToolStripMenuItem.Text = "学生信息";
             this.StudentInfoToolStripMenuItem.Click += new System.EventHandler(this.StudentInfoToolStripMenuItem_Click);
             // 
             // CourseInfoToolStripMenuItem
             // 
             this.CourseInfoToolStripMenuItem.Name = "CourseInfoToolStripMenuItem";
-            this.CourseInfoToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.CourseInfoToolStripMenuItem.Size = new System.Drawing.Size(243, 44);
             this.CourseInfoToolStripMenuItem.Text = "课程信息";
             this.CourseInfoToolStripMenuItem.Click += new System.EventHandler(this.CourseInfoToolStripMenuItem_Click);
             // 
             // SCInfoToolStripMenuItem
             // 
             this.SCInfoToolStripMenuItem.Name = "SCInfoToolStripMenuItem";
-            this.SCInfoToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.SCInfoToolStripMenuItem.Size = new System.Drawing.Size(243, 44);
             this.SCInfoToolStripMenuItem.Text = "成绩信息";
+            this.SCInfoToolStripMenuItem.Click += new System.EventHandler(this.SCInfoToolStripMenuItem_Click);
             // 
             // QueryToolStripMenuItem
             // 
@@ -95,6 +95,7 @@
             this.QueryStudentByDeptAndSexToolStripMenuItem.Name = "QueryStudentByDeptAndSexToolStripMenuItem";
             this.QueryStudentByDeptAndSexToolStripMenuItem.Size = new System.Drawing.Size(411, 44);
             this.QueryStudentByDeptAndSexToolStripMenuItem.Text = "按性别和所在系查询学生";
+            this.QueryStudentByDeptAndSexToolStripMenuItem.Click += new System.EventHandler(this.QueryStudentByDeptAndSexToolStripMenuItem_Click);
             // 
             // FrmMain
             // 

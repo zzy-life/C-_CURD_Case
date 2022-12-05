@@ -37,5 +37,17 @@ namespace BLL
             List<Course> courses = cDAO.GetCourses();
             return courses;
         }
+        public List<SC> GetSc()
+        {
+            SCDAO scDAO = new SCDAO();
+            List<SC> scs = scDAO.GetSC();
+            return scs;
+        }
+        public List<SCAll> GetSCAlls()
+        {
+            SCDAO sDAO = new SCDAO();
+            List<SCAll> scAlls = sDAO.GetSCAlls();
+            return scAlls;
+        }
     }
 }

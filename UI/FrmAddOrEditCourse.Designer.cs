@@ -68,9 +68,9 @@
             this.lblSdept.Location = new System.Drawing.Point(385, 96);
             this.lblSdept.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblSdept.Name = "lblSdept";
-            this.lblSdept.Size = new System.Drawing.Size(70, 24);
+            this.lblSdept.Size = new System.Drawing.Size(58, 24);
             this.lblSdept.TabIndex = 64;
-            this.lblSdept.Text = "redit";
+            this.lblSdept.Text = "学分";
             // 
             // txtCredit
             // 

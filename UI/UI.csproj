@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmSCInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSCInfo.Designer.cs">
+      <DependentUpon>FrmSCInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddOrEditSC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddOrEditSC.Designer.cs">
+      <DependentUpon>FrmAddOrEditSC.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAddOrEditCourse.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +82,12 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmStudentBySex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStudentBySex.designer.cs">
+      <DependentUpon>FrmStudentBySex.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmStudentInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +96,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmSCInfo.resx">
+      <DependentUpon>FrmSCInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddOrEditSC.resx">
+      <DependentUpon>FrmAddOrEditSC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAddOrEditCourse.resx">
       <DependentUpon>FrmAddOrEditCourse.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentBySex.resx">
+      <DependentUpon>FrmStudentBySex.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStudentInfo.resx">
       <DependentUpon>FrmStudentInfo.cs</DependentUpon>

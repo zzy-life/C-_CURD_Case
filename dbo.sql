@@ -11,7 +11,7 @@ Target Server Type    : SQL Server
 Target Server Version : 105000
 File Encoding         : 65001
 
-Date: 2022-11-21 16:05:08
+Date: 2022-12-05 17:17:32
 */
 
 
@@ -81,10 +81,10 @@ GO
 INSERT INTO [dbo].[SC] ([Sno], [Cno], [Grade]) VALUES (N'95001', N'3', N'88')
 GO
 GO
-INSERT INTO [dbo].[SC] ([Sno], [Cno], [Grade]) VALUES (N'95002', N'2', N'90')
+INSERT INTO [dbo].[SC] ([Sno], [Cno], [Grade]) VALUES (N'95002', N'2', N'80')
 GO
 GO
-INSERT INTO [dbo].[SC] ([Sno], [Cno], [Grade]) VALUES (N'95002', N'3', N'80')
+INSERT INTO [dbo].[SC] ([Sno], [Cno], [Grade]) VALUES (N'95005', N'2', N'100')
 GO
 GO
 
@@ -117,6 +117,9 @@ INSERT INTO [dbo].[Student] ([Sno], [Sname], [Ssex], [Sbirthday], [Sdept]) VALUE
 GO
 GO
 INSERT INTO [dbo].[Student] ([Sno], [Sname], [Ssex], [Sbirthday], [Sdept]) VALUES (N'95004', N'张立  ', N'男', N'1900-01-20 00:00:00.000', N'IS')
+GO
+GO
+INSERT INTO [dbo].[Student] ([Sno], [Sname], [Ssex], [Sbirthday], [Sdept]) VALUES (N'95005', N'张志宇', N'男', N'2022-12-05 17:13:25.000', N'CS')
 GO
 GO
 

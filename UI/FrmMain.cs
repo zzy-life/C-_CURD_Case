@@ -31,5 +31,19 @@ namespace UI
             frmCourseInfo.Show();
 
         }
+
+        private void SCInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSCInfo frmSCInfo = new FrmSCInfo();
+            frmSCInfo.MdiParent = this;
+            frmSCInfo.Show();
+
+        }
+        private void QueryStudentByDeptAndSexToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmStudentBySex frmStudentBySexDept = new FrmStudentBySex();
+            frmStudentBySexDept.MdiParent = this;
+            frmStudentBySexDept.Show();
+        }
     }
 }
